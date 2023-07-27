@@ -15,5 +15,5 @@ def compile(values): # input concentrations/sample identifier in an array
         index += 1
         if index == 11: index = 0
 
-compile([40,100,200,400,'500s','1s','5s','10s'])
-compile([1,5,10,20,'500s','1s','5s','10s'])
+compile([1,5,10,20,'500s','1s','5s','10s']) # example: 1-20 µg/mL RB dye standards, 1-10 mg/mL NP samples
+compile([40,100,200,400,'500s','1s','5s','10s']) # example: 40-400 µg/mL NB dye standards, 1-10 mg/mL NP samples
