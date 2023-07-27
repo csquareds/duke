@@ -1,3 +1,4 @@
+# quickly generate lines of code for loading data and graphing
 def data(input):
     print(f'adsorb{input} = absorb.loc[:,["{input}.1", "{input}.2", "{input}.3"]]')
 
